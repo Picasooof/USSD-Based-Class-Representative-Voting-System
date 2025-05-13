@@ -1,6 +1,6 @@
 <?php
 require_once 'config.php';
-require_once 'sms_handler.php'; // Include the SMS handler
+require_once 'sms.php'; // Include the SMS handler
 
 // USSD handler for Africa's Talking
 $sessionId = isset($_POST['sessionId']) ? $_POST['sessionId'] : null; // Check if sessionId is set
