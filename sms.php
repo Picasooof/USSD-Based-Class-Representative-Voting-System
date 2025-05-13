@@ -48,11 +48,11 @@ class SMS {
 
 // Debugging and usage example
 // Uncomment and modify as needed
-/*
+
 try {
-    $phone = "‪+250786139330‬"; // Use verified sandbox number
+    $phone = "‪+25075419324‬"; // Use verified sandbox number
     $message = "Test SMS from Africa's Talking Sandbox.";
-    $recipients = "‪+250786139330‬"; // Must be sandbox-registered number
+    $recipients = "‪+25075419324"; // Must be sandbox-registered number
 
     $smsInstance = new SMS($phone);
     $result = $smsInstance->sendSMS($message, $recipients);
@@ -61,5 +61,5 @@ try {
 } catch (Exception $e) {
     echo "Initialization Error: " . $e->getMessage();
 }
-*/
+
 ?>
